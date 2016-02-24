@@ -15,6 +15,7 @@ public class TestFarkleProgram {
         assertNotNull(game);
         game.init();
 
-        // test that the FarkleProgram behaves properly
-    }
+//     test that the FarkleProgram behaves properly
 }
+}
+

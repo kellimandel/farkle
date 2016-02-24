@@ -11,9 +11,12 @@ public class TestPlayer {
 
     @Test
     public void myTest() {
-        Player p = new Player();
+        Player p = new Player("Johnny");
         assertNotNull(p);
+        assertEquals(0,p.getScore());
+        p.addToScore(700);
+        assertEquals(700,p.getScore());
 
-        // test that the player behaves properly
+//         test that the player behaves properly
     }
 }
